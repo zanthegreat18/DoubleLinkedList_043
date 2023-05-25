@@ -145,5 +145,6 @@ void DoubleLinkedList::hapus() {
 }
 
 void DoubleLinkedList::searchData() {
-	if (ListEmpty() == true) {}
+	if (ListEmpty() == true) {
+		cout << "\nList is empty" << endl;
 }
