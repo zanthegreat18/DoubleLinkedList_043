@@ -21,4 +21,6 @@ public:
 	bool ListEmpty();
 	void ascending();
 	void descending();
+	void hapus();
+	void searchData();
 };
