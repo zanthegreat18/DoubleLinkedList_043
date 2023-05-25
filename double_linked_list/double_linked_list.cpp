@@ -113,3 +113,14 @@ void DoubleLinkedList::ascending() {
 		}
 	}
 }
+
+void DoubleLinkedList::descending() {
+	if (ListEmpty())
+		cout << "\nList is empty" << endl;
+	else {
+		cout << "nRecords in descending order pf roll number are:" << endl;
+		Node* currentNode = START;
+		while (currentNode->next != NULL)
+			currentNode = currentNode->next;
+	}
+}
